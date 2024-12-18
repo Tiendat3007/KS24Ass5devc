@@ -30,9 +30,12 @@ int main() {
                 printf("Tich cua %d va %d la: %.2f\n", num1, num2, DapAn);
                 break;
             case 4:
+                if(mun2 !=0){
                     DapAn = (float)num1 / num2;
                     printf("Thuong cua %d va %d la: %.2f\n", num1, num2, DapAn);
-            
+                }else{
+                    printf("dapan = 0");
+                }
                 
                 break;
             case 5:
